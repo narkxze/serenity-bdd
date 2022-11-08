@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="testRunners.TestRunner" time="30.481" errors="1" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
+    <property name="java.vm.version" value="25.202-b08"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Utilities\Projects\Serenity-BDD\Module-2"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Utilities\Projects\Serenity-BDD\Module-2"/>
+    <property name="java.runtime.version" value="1.8.0_202-b08"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\NARESH~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\Maven\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\Maven\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;C:\Users\Nareshkarthi_Sakthiv\AppData\Local\Microsoft\WindowsApps;C:\Users\Nareshkarthi_Sakthiv\AppData\Local\JetBrains\Toolbox\scripts;;."/>
+    <property name="maven.conf" value="C:\Program Files\Maven\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\Maven\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\Nareshkarthi_Sakthiv"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Nareshkarthi_Sakthiv"/>
+    <property name="java.class.path" value="C:\Program Files\Maven\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_202\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean verify"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_202"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\Maven\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Module-2 feature" name="Search, Add and verify whether product is add in cart" time="30.481">
+    <error message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: Expected enabled element was not enabled
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilEnabled(WebElementFacadeImpl.java:1115)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:899)
+	at net.serenitybdd.core.pages.DropdownSelector.byIndex(DropdownSelector.java:63)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.selectByIndex(WebElementFacadeImpl.java:885)
+	at pages.ProductPage.selectValueFromSizeDropdown(ProductPage.java:34)
+	at helpers.ProductPageSteps.selectSizeUsingIndex(ProductPageSteps.java:12)
+	at helpers.ProductPageSteps$ByteBuddy$RaLjGHX9.selectSizeUsingIndex$accessor$JDHPAhHz(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:406)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:191)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:84)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at helpers.ProductPageSteps$ByteBuddy$RaLjGHX9.selectSizeUsingIndex(Unknown Source)
+	at stepdefs.StepDefinitions.iSelectIndexValueFromSizeDropdown(StepDefinitions.java:64)
+	at ✽.I select index 2 from the size dropdown(file:///D:/Utilities/Projects/Serenity-BDD/Module-2/src/test/resources/features/Module-2.feature:9)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for ProductPage.dropdownSize to be enabled (tried for 5 second(s) with 100 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:263)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilEnabled(WebElementFacadeImpl.java:1112)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:899)
+	at net.serenitybdd.core.pages.DropdownSelector.byIndex(DropdownSelector.java:63)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.selectByIndex(WebElementFacadeImpl.java:885)
+	at pages.ProductPage.selectValueFromSizeDropdown(ProductPage.java:34)
+	at helpers.ProductPageSteps.selectSizeUsingIndex(ProductPageSteps.java:12)
+	at helpers.ProductPageSteps$ByteBuddy$RaLjGHX9.selectSizeUsingIndex$accessor$JDHPAhHz(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:406)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:191)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:84)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at helpers.ProductPageSteps$ByteBuddy$RaLjGHX9.selectSizeUsingIndex(Unknown Source)
+	at stepdefs.StepDefinitions.iSelectIndexValueFromSizeDropdown(StepDefinitions.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:85)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:259)
+	at io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:59)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.CucumberSerenityRunner$RunCucumber.evaluate(CucumberSerenityRunner.java:288)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.openqa.selenium.NoSuchElementException: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;EPINCHEW0072&apos;, ip: &apos;192.168.0.242&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
+Driver info: driver.version: unknown
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:164)
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:116)
+	at net.serenitybdd.core.pages.WebElementResolverByElementLocator.resolveForDriver(WebElementResolverByElementLocator.java:29)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.getResolvedElement(WebElementFacadeImpl.java:186)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:181)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.getTagName(WebElementFacadeImpl.java:1289)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:43)
+	at com.sun.proxy.$Proxy48.getTagName(Unknown Source)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.getTagName(WebElementFacadeImpl.java:1289)
+	at net.serenitybdd.core.pages.WebElementExpectations.isAFormElement(WebElementExpectations.java:163)
+	at net.serenitybdd.core.pages.WebElementExpectations.isDisabledField(WebElementExpectations.java:159)
+	at net.serenitybdd.core.pages.WebElementExpectations.access$000(WebElementExpectations.java:10)
+	at net.serenitybdd.core.pages.WebElementExpectations$3.apply(WebElementExpectations.java:64)
+	at net.serenitybdd.core.pages.WebElementExpectations$3.apply(WebElementExpectations.java:55)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 72 more
+</error>
+    <system-out>
+Scenario: Search, Add and verify whether product is add in cart &amp;#27;[90m# src/test/resources/features/Module-2.feature:3&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mUser opens the Amazon Home Page&amp;#27;[0m                         &amp;#27;[90m# stepdefs.StepDefinitions.iOpenHomePage()&amp;#27;[0m
+  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32muser searches &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&apos;Nike&apos;&amp;#27;[0m&amp;#27;[32m in the Search Text Box&amp;#27;[0m              &amp;#27;[90m# stepdefs.StepDefinitions.iTypeQueryInSearchBox(java.lang.String)&amp;#27;[0m
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI navigate to the &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&apos;Search Results&apos;&amp;#27;[0m&amp;#27;[32m Page&amp;#27;[0m                   &amp;#27;[90m# stepdefs.StepDefinitions.iNavigateToThePage(java.lang.String)&amp;#27;[0m
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI click on the first result of the searched item&amp;#27;[0m          &amp;#27;[90m# stepdefs.StepDefinitions.iSelectTheFirstResult()&amp;#27;[0m
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI navigate to the &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&apos;Product&apos;&amp;#27;[0m&amp;#27;[32m Page&amp;#27;[0m                          &amp;#27;[90m# stepdefs.StepDefinitions.iNavigateToThePage(java.lang.String)&amp;#27;[0m
+  &amp;#27;[31mAnd &amp;#27;[0m&amp;#27;[31mI select index &amp;#27;[0m&amp;#27;[31m&amp;#27;[1m2&amp;#27;[0m&amp;#27;[31m from the size dropdown&amp;#27;[0m                   &amp;#27;[90m# stepdefs.StepDefinitions.iSelectIndexValueFromSizeDropdown(int)&amp;#27;[0m
+      &amp;#27;[31mnet.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: Expected enabled element was not enabled
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilEnabled(WebElementFacadeImpl.java:1115)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:899)
+	at net.serenitybdd.core.pages.DropdownSelector.byIndex(DropdownSelector.java:63)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.selectByIndex(WebElementFacadeImpl.java:885)
+	at pages.ProductPage.selectValueFromSizeDropdown(ProductPage.java:34)
+	at helpers.ProductPageSteps.selectSizeUsingIndex(ProductPageSteps.java:12)
+	at helpers.ProductPageSteps$ByteBuddy$RaLjGHX9.selectSizeUsingIndex$accessor$JDHPAhHz(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:406)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:191)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:84)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at helpers.ProductPageSteps$ByteBuddy$RaLjGHX9.selectSizeUsingIndex(Unknown Source)
+	at stepdefs.StepDefinitions.iSelectIndexValueFromSizeDropdown(StepDefinitions.java:64)
+	at âœ½.I select index 2 from the size dropdown(file:///D:/Utilities/Projects/Serenity-BDD/Module-2/src/test/resources/features/Module-2.feature:9)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for ProductPage.dropdownSize to be enabled (tried for 5 second(s) with 100 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:263)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilEnabled(WebElementFacadeImpl.java:1112)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:899)
+	at net.serenitybdd.core.pages.DropdownSelector.byIndex(DropdownSelector.java:63)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.selectByIndex(WebElementFacadeImpl.java:885)
+	at pages.ProductPage.selectValueFromSizeDropdown(ProductPage.java:34)
+	at helpers.ProductPageSteps.selectSizeUsingIndex(ProductPageSteps.java:12)
+	at helpers.ProductPageSteps$ByteBuddy$RaLjGHX9.selectSizeUsingIndex$accessor$JDHPAhHz(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:406)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:191)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:84)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at helpers.ProductPageSteps$ByteBuddy$RaLjGHX9.selectSizeUsingIndex(Unknown Source)
+	at stepdefs.StepDefinitions.iSelectIndexValueFromSizeDropdown(StepDefinitions.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:85)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:259)
+	at io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:59)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.CucumberSerenityRunner$RunCucumber.evaluate(CucumberSerenityRunner.java:288)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.openqa.selenium.NoSuchElementException: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;EPINCHEW0072&apos;, ip: &apos;192.168.0.242&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
+Driver info: driver.version: unknown
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:164)
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:116)
+	at net.serenitybdd.core.pages.WebElementResolverByElementLocator.resolveForDriver(WebElementResolverByElementLocator.java:29)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.getResolvedElement(WebElementFacadeImpl.java:186)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:181)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.getTagName(WebElementFacadeImpl.java:1289)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:43)
+	at com.sun.proxy.$Proxy48.getTagName(Unknown Source)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.getTagName(WebElementFacadeImpl.java:1289)
+	at net.serenitybdd.core.pages.WebElementExpectations.isAFormElement(WebElementExpectations.java:163)
+	at net.serenitybdd.core.pages.WebElementExpectations.isDisabledField(WebElementExpectations.java:159)
+	at net.serenitybdd.core.pages.WebElementExpectations.access$000(WebElementExpectations.java:10)
+	at net.serenitybdd.core.pages.WebElementExpectations$3.apply(WebElementExpectations.java:64)
+	at net.serenitybdd.core.pages.WebElementExpectations$3.apply(WebElementExpectations.java:55)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 72 more
+&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI click on Add to Cart button&amp;#27;[0m                             &amp;#27;[90m# stepdefs.StepDefinitions.clickOnCartButton()&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI navigate to the &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&apos;Cart&apos;&amp;#27;[0m&amp;#27;[36m Page&amp;#27;[0m                             &amp;#27;[90m# stepdefs.StepDefinitions.iNavigateToThePage(java.lang.String)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI verify the item is added to the cart successfully&amp;#27;[0m      &amp;#27;[90m# stepdefs.StepDefinitions.checkForSuccessfAddToCartMessage()&amp;#27;[0m
+</system-out>
+    <system-err>SLF4J: Failed to load class &quot;org.slf4j.impl.StaticLoggerBinder&quot;.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 59092
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 03, 2022 11:05:52 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Nov 03, 2022 11:05:52 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 107, so returning the closest version found: 104
+Nov 03, 2022 11:05:52 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 107 of 104
+</system-err>
+  </testcase>
+</testsuite>

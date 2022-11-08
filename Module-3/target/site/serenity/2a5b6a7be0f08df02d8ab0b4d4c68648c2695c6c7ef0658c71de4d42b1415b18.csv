@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"PetStore API Scenarios","Verify the Response Headers","SUCCESS","2022-11-03T20:01:13.415+05:30[Asia/Calcutta]","0.0","0.02"
+"PetStore API Scenarios","Verify status code is 404 of FindByStatus","FAILURE","2022-11-03T20:01:13.445+05:30[Asia/Calcutta]","0.0","0.51"

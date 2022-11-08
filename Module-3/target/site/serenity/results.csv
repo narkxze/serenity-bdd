@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"PetStore API Scenarios","Verify status code is 200 of FindByStatus","SUCCESS","2022-11-03T20:01:06.977+05:30[Asia/Calcutta]","0.0","4.09"
+"PetStore API Scenarios","Verify all the status of the pets are available in the response","SUCCESS","2022-11-03T20:01:11.076+05:30[Asia/Calcutta]","0.0","2.33"
+"PetStore API Scenarios","Verify the Response Headers","SUCCESS","2022-11-03T20:01:13.415+05:30[Asia/Calcutta]","0.0","0.02"
+"PetStore API Scenarios","Verify status code is 404 of FindByStatus","FAILURE","2022-11-03T20:01:13.445+05:30[Asia/Calcutta]","0.0","0.51"
